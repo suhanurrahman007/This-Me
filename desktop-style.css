@@ -1,0 +1,135 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* navbar deign starts here */
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+.navbar-menu a:hover{
+    color:rgb(211, 202, 202);
+    background-color: #40868B;
+}
+
+/* navbar design ends here */
+
+
+
+
+/* profile design starts here  */
+.profile .top-weather-icon{
+   
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+
+.profile .top-weather-icon:hover{
+    width: 140px;
+}
+
+.profile-desc p{
+    color: gray;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.profile .bottom-weather-icon{
+   bottom: 20px;
+    left: 140px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+
+.profile .bottom-weather-icon:hover{
+    width: 140px;
+}
+/* profile design ends here  */
+
+/* about design start here  */
+
+.about-img img{
+    margin-top: 100px;
+    width: 260px;
+    height: 270px;
+    text-align: center;
+    border: 4px solid white;
+}
+.about-des p{
+    text-align: left;
+}
+
+/* about design ends here  */
+ 
+/* EXPERIENCE design start */
+
+.experience{
+    padding: 0% 5%;
+    
+}
+
+/* EXPERIENCE design end */
+
+.achievements{
+    padding-right: 50px;
+}
+.contact-me button{
+    width: 120px;
+}
+
+.more-contact{
+    position: relative;
+}
+
+.b-contact{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 200px;
+}
+
+/*ACHIEVEMENTS design end */
+
+
+/*Footer design start*/
+
+.footer-nav{
+  margin-top: 12px;
+}
+
+.footer-nav a{
+    display: inline;
+    margin: 10px;
+}
+
+/*Footer design end*/
